@@ -1,0 +1,14 @@
+.dialogs{
+  display: grid;
+  grid: 2fr 10fr;
+  grid-template-columns: 200px 200px;
+  color: white;
+  text-decoration: none;
+}
+.dialogs a{
+  color: white;
+  text-decoration: none;
+}
+textarea{
+  margin-top: 50px;
+}
