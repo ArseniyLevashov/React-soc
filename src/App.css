@@ -13,3 +13,6 @@
     grid-area: c;
     background-color: rgba(110, 110, 211, 0.822);
 }
+body{
+  background-color: rgb(241, 241, 241);
+}
