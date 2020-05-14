@@ -1,7 +1,26 @@
 .header{
     grid-area: h;
-    background-color: chartreuse;
+    background-color: black;
+    color: white;
   }
   header img{
-    width: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  .lk_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  .lk_container img{
+    margin-right: 600px;
+  }
+  header a{
+    padding: 20px 50px 0 50px;
+    color: white;
+    text-decoration: none;
+  }
+  header a:hover{
+    color: rgb(147, 182, 247);
   }
