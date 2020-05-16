@@ -2,15 +2,18 @@ import React from 'react';
 import s from "./ProfileInfo.module.css";
 
 const ProfileInfo = () => {
-  return <div>
+  return <div className={s.Prof_block}>
             <div>
               
             </div>
-            <div>
-              <img src="pic/back.jpg"></img>
-            </div>
-            <div className={s.descripBlock}>
-              ava + description
+            <div className={s.line}>
+                <div>
+                  <img src="https://magicduels.ru/sites/default/files/avatars/default.png"></img>
+                </div>
+                <div className={s.descripBlock}>
+                  <h2>Profile Name</h2>
+                  <p>Description</p>
+                </div>
             </div>
         </div>
 }
