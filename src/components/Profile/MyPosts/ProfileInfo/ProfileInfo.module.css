@@ -3,5 +3,15 @@
   width: 50px;
 }
 .descripBlock{
-  padding: 10px;
+  padding-left: 30px;
+}
+.Prof_block{
+  margin-left: 50px;
+}
+.line{
+  display: flex;
+  flex-direction: row;
+}
+img{
+  border-radius: 50%;
 }
